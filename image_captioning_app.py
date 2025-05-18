@@ -30,4 +30,4 @@ iface = gr.Interface(
     description="This is a simple web app for generating captions for images using a trained model."
 )
 
-iface.launch()
+iface.launch(share=True)  # Set share=True to create a public link
